@@ -12,7 +12,27 @@
     <title>Mon portfolio</title>
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">Moi</a></li>
+            <li><a href="#skills">Compétance</a></li>
+            <li><a href="#experience">Expérience</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <section id="about" class="container-fluid">
       <div class="col-xs-8 col-md-4 profile-picture">
         <img src="images/0.jpeg" alt="Soumayat" class="img-circle">
@@ -151,10 +171,83 @@
         </div>
         <div class="row">
           <div class="col-sm-4">
+            <a class="thumbnail" href="http://www.facebook.com" target="_blank">
+              <img src="images/facebook_share.png" alt="facebook_share">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a class="thumbnail" href="http://www.facebook.com" target="_blank">
+              <img src="images/facebook_share.png" alt="facebook_share">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a class="thumbnail" href="http://www.facebook.com" target="_blank">
+              <img src="images/facebook_share.png" alt="facebook_share">
+            </a>
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="col-sm-4">
+            <a class="thumbnail" href="http://www.facebook.com" target="_blank">
+              <img src="images/facebook_share.png" alt="facebook_share">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a class="thumbnail" href="http://www.facebook.com" target="_blank">
+              <img src="images/facebook_share.png" alt="facebook_share">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a class="thumbnail" href="http://www.facebook.com" target="_blank">
+              <img src="images/facebook_share.png" alt="facebook_share">
+            </a>s
           </div>
         </div>
       </div>
     </section>
+
+<!--    <section id="recommendation">
+      <div class="container">
+        <div class="red-divider"></div>
+        <div class="heading">
+          <h2>Recommandations</h2>
+        </div>
+        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+          <ol>
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <h3>John t'es le meilleur</h3>
+              <h4>Larry Paige , Google-Co-founder</h4>
+            </div>
+            <div class="item">
+              <h3>l'esprit le plus creatif</h3>
+              <h4>Jack Dorsey , Twitter Founder</h4>
+            </div>
+            <div class="item">
+              <h3>helloooooo</h3>
+              <h4>Mark Zuckerber , Facebook Founder</h4>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev" role="button">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next" role="button">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </section>-->
+
+    <footer class="text-center">
+      <a href="#about">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <h5>© 2020 Soumayat-Hamadi.com</h5>
+    </footer>
   </body>
 </html>
