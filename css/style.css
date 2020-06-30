@@ -48,7 +48,7 @@ section .heading h2{
 /* MENU */
 
 .navbar{
-  background:#463f3a;
+  background:#000;
   font-size: 12px;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -66,12 +66,12 @@ section .heading h2{
 }
 
 .navbar li a{
-  color: #fff !important;
+  color: #ffe1a8 !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a{
   color:#463f3a !important;
-  background: #fff !important;
+  background: #ffe1a8 !important;
 }
 
 .navbar-default{
@@ -85,7 +85,7 @@ section .heading h2{
 
 #about{
   padding-top: 160px;
-  background: #463f3a;
+  background: #000;
 }
 
 .profile-picture{
@@ -93,16 +93,17 @@ section .heading h2{
   margin: 0 auto;
   float: none
 }
+
 #about .heading h1{
   text-transform: uppercase;
   text-align: center;
-  color: #f4f3ee;
+  color: #ffe1a8;
 }
 
 .button1{
   font-weight: bold;
   text-transform: uppercase;
-  color: #fff;
+  color: #ffe1a8;
   border: 1px solid white;
   display:inline-block;
   margin-top: 20px;
@@ -111,17 +112,17 @@ section .heading h2{
   transition: all 0.3s ease-in 0s;
 }
 .button1:hover{
-  background: white;
-  color: #bcb8b1;
+  background: #ffe1a8;
+  color: #000;
   text-decoration: none;
 }
 
 /* SKILLS*/
 #skills{
-  background: #fff;
+  background: #ffe1a8;
 }
 #skills .heading h2{
-  color: #bcb8b1;
+  color: #000;
   text-transform: uppercase;
 }
 
@@ -133,7 +134,7 @@ section .heading h2{
 
 }
 #skills .progress-bar{
-  background: #463f3a;
+  background: #000;
 }
 
 #skills.progress h5{
@@ -144,11 +145,11 @@ section .heading h2{
 /* EXPERIENCE */
 
 #experience{
-  background: #463f3a;
+  background: #000;
 }
 
 #experience .heading h2{
-  color: #fff;
+  color: #ffe1a8;
 }
 .timeline{
   padding: 30px 10px;
@@ -161,7 +162,7 @@ section .heading h2{
   position: absolute;
   content: " ";
   width: 5px;
-  background: #fff;
+  background: #ffe1a8;
   left: 50%;
   margin-left: -2.5px;
 }
@@ -181,7 +182,7 @@ section .heading h2{
 }
 
 .timeline li .timeline-badge{
-  color: #463f3a;
+  color: #000;
   width: 50px;
   line-height: 50px;
   font-size: 20px;
@@ -190,7 +191,7 @@ section .heading h2{
     top: 16px;
     left: 50%;
     margin-left: -25px;
-    background-color: #ddd;
+    background-color: #ffe1a8;
     border-radius: 50%;
 }
 
@@ -212,7 +213,7 @@ section .heading h2{
   padding: 20px 25px;
   position: relative;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-  background: #fff;
+  background: #ffe1a8;
 
 }
 
@@ -227,8 +228,8 @@ section .heading h2{
   right:-14px;
   display: inline-inline-block;
   border-top: 14px solid transparent;
-  border-left: 14px solid #fff;
-  border-right: 0 solid #fff;
+  border-left: 14px solid #ffe1a8;
+  border-right: 0 solid #ffe1a8;
   border-bottom: 14px solid transparent;
   content: " ";
 }
@@ -245,15 +246,15 @@ section .heading h2{
   font-size: 20px;
 }
 .timeline-heading h4{
-  color :#463f3a;
+  color :#000;
 }
 
 #portfolio{
-  background: #fff;
+  background: #ffe1a8;
 }
 
 #portfolio .heading h2{
-  color: #463f3a;
+  color: #000;
 }
 
 #portfolio .thumbnail img{
@@ -268,7 +269,7 @@ section .heading h2{
   -webkit-filter:none;
 }
 
-/* RECOMMENDATION */
+/* RECOMMENDATION
 #recommendation{
   background: #463f3a;
 
@@ -302,7 +303,7 @@ section .heading h2{
   padding: 40px 30px;
   font-style: italic;
 
-}
+}*/
 
 /* FOOTER */
 
@@ -314,7 +315,7 @@ footer{
 footer .glyphicon{
   font-size: 25px;
   margin: 20px;
-  color: #fff;
+  color: #ffe1a8;
   height: 30px;
 }
 
@@ -323,6 +324,6 @@ footer .glyphicon:hover{
 }
 
 footer h5{
-  color: #fff;
+  color: #ffe1a8;
   font-weight:normal;
 }
